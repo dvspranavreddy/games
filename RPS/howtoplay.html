@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How to Play - RPS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="page-title">How to Play</h1>
+  <div class="container">
+    <p>Select one of Rock ✊, Paper 🖐, or Scissors ✌.</p>
+    <p>Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</p>
+    <button class="back-btn" id="backBtn">Back</button>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("backBtn").addEventListener("click", () => {
+        window.location.href = "index.html";
+      });
+    });
+  </script>
+</body>
+</html>

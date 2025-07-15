@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Play - Hangman</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 class="page-title">Hangman</h1>
+  <div class="container">
+    <p id="wordDisplay">_ _ _ _</p>
+    <p>Wrong Guesses: <span id="wrongGuesses">0</span></p>
+    <input type="text" maxlength="1" id="guessInput">
+    <button id="guessBtn">✅ Guess</button>
+    <p id="message"></p>
+    <button id="restartBtn">🔁 Restart</button>
+    <button class="back-btn" id="backBtn">🔙 Back</button>
+  </div>
+</body>
+</html>

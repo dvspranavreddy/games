@@ -1,0 +1,108 @@
+body, .menu-body, .game-body, .stats-body, .info-body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+.emoji-button {
+  width: 100px; 
+  height: 100px; 
+  padding: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* overflow: hidden; */
+}
+
+
+.emoji-button img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #64b5f6;
+  object-fit: contain;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.emoji-button:hover img {
+  box-shadow: 0 0 10px #64b5f6;
+}
+
+
+button {
+  font-size: 1rem;
+  padding: 0.7rem 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: #2979ff;
+  color: white;
+  border-radius: 8px;
+  transition: background 0.2s;
+  height: 40px;
+  width: 167.4px;
+}
+
+button:hover {
+  background-color: #42a5f5;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.scoreboard p {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.back-btn {
+  background-color: #ff4081;
+}
+
+.back-btn:hover {
+  background-color: #e91e63;
+}
+
+.autoplay-btn {
+  background-color: #ffa726;
+}
+
+.autoplay-btn:hover {
+  background-color: #fb8c00;
+}
+
+
